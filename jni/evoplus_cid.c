@@ -1,8 +1,12 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 #include <sys/ioctl.h>
 #include <fcntl.h>
+#include <unistd.h>
 #include <arpa/inet.h>
 #include "mmc.h"
+
 
 #define CID_SIZE 16
 #define PROGRAM_CID_OPCODE 26
